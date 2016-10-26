@@ -1,0 +1,441 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react-blur',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.0
+4 verbose install initial load of /Users/Overflow/Documents/StudyForRR/package.json
+5 warn package.json study@1.0.0 No README data
+6 verbose installManyTop reading scoped package data from /Users/Overflow/Documents/StudyForRR/node_modules/babel-core/package.json
+7 verbose installManyTop reading scoped package data from /Users/Overflow/Documents/StudyForRR/node_modules/babel-loader/package.json
+8 verbose installManyTop reading scoped package data from /Users/Overflow/Documents/StudyForRR/node_modules/babel-preset-es2015/package.json
+9 verbose installManyTop reading scoped package data from /Users/Overflow/Documents/StudyForRR/node_modules/babel-preset-react/package.json
+10 verbose installManyTop reading scoped package data from /Users/Overflow/Documents/StudyForRR/node_modules/css-loader/package.json
+11 verbose installManyTop reading scoped package data from /Users/Overflow/Documents/StudyForRR/node_modules/file-loader/package.json
+12 verbose installManyTop reading scoped package data from /Users/Overflow/Documents/StudyForRR/node_modules/react/package.json
+13 verbose installManyTop reading scoped package data from /Users/Overflow/Documents/StudyForRR/node_modules/react-dom/package.json
+14 verbose installManyTop reading scoped package data from /Users/Overflow/Documents/StudyForRR/node_modules/react-image-blur/package.json
+15 verbose installManyTop reading scoped package data from /Users/Overflow/Documents/StudyForRR/node_modules/style-loader/package.json
+16 verbose installManyTop reading scoped package data from /Users/Overflow/Documents/StudyForRR/node_modules/url-loader/package.json
+17 verbose installManyTop reading scoped package data from /Users/Overflow/Documents/StudyForRR/node_modules/webpack/package.json
+18 verbose installManyTop reading scoped package data from /Users/Overflow/Documents/StudyForRR/node_modules/webpack-dev-server/package.json
+19 verbose readDependencies loading dependencies from /Users/Overflow/Documents/StudyForRR/package.json
+20 silly cache add args [ 'react-blur', null ]
+21 verbose cache add spec react-blur
+22 silly cache add parsed spec Result {
+22 silly cache add   raw: 'react-blur',
+22 silly cache add   scope: null,
+22 silly cache add   name: 'react-blur',
+22 silly cache add   rawSpec: '',
+22 silly cache add   spec: 'latest',
+22 silly cache add   type: 'tag' }
+23 silly addNamed react-blur@latest
+24 verbose addNamed "latest" is being treated as a dist-tag for react-blur
+25 info addNameTag [ 'react-blur', 'latest' ]
+26 silly mapToRegistry name react-blur
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'react-blur',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   name: 'react-blur',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/react-blur
+31 verbose addNameTag registry:https://registry.npmjs.org/react-blur not in flight; fetching
+32 verbose request uri https://registry.npmjs.org/react-blur
+33 verbose request no auth needed
+34 info attempt registry request try #1 at 20:57:35
+35 verbose request id 3b408250250a7827
+36 http request GET https://registry.npmjs.org/react-blur
+37 http 200 https://registry.npmjs.org/react-blur
+38 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+38 verbose headers   etag: '"32352KVU3ADO43V86869XZPIG"',
+38 verbose headers   'content-type': 'application/json',
+38 verbose headers   'content-encoding': 'gzip',
+38 verbose headers   'cache-control': 'max-age=300',
+38 verbose headers   'content-length': '4814',
+38 verbose headers   'accept-ranges': 'bytes',
+38 verbose headers   date: 'Wed, 26 Oct 2016 11:57:36 GMT',
+38 verbose headers   via: '1.1 varnish',
+38 verbose headers   age: '0',
+38 verbose headers   connection: 'keep-alive',
+38 verbose headers   'x-served-by': 'cache-nrt6125-NRT',
+38 verbose headers   'x-cache': 'MISS',
+38 verbose headers   'x-cache-hits': '0',
+38 verbose headers   'x-timer': 'S1477483055.972808,VS0,VE186',
+38 verbose headers   vary: 'Accept-Encoding' }
+39 silly get cb [ 200,
+39 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+39 silly get     etag: '"32352KVU3ADO43V86869XZPIG"',
+39 silly get     'content-type': 'application/json',
+39 silly get     'content-encoding': 'gzip',
+39 silly get     'cache-control': 'max-age=300',
+39 silly get     'content-length': '4814',
+39 silly get     'accept-ranges': 'bytes',
+39 silly get     date: 'Wed, 26 Oct 2016 11:57:36 GMT',
+39 silly get     via: '1.1 varnish',
+39 silly get     age: '0',
+39 silly get     connection: 'keep-alive',
+39 silly get     'x-served-by': 'cache-nrt6125-NRT',
+39 silly get     'x-cache': 'MISS',
+39 silly get     'x-cache-hits': '0',
+39 silly get     'x-timer': 'S1477483055.972808,VS0,VE186',
+39 silly get     vary: 'Accept-Encoding' } ]
+40 verbose get saving react-blur to /Users/Overflow/.npm/registry.npmjs.org/react-blur/.cache.json
+41 verbose correctMkdir /Users/Overflow/.npm correctMkdir not in flight; initializing
+42 silly addNameTag next cb for react-blur with tag latest
+43 silly addNamed react-blur@0.5.1
+44 verbose addNamed "0.5.1" is a plain semver version for react-blur
+45 silly mapToRegistry name react-blur
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'react-blur',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   name: 'react-blur',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/react-blur
+50 verbose addRemoteTarball https://registry.npmjs.org/react-blur/-/react-blur-0.5.1.tgz not in flight; adding
+51 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-blur/-/react-blur-0.5.1.tgz',
+51 verbose addRemoteTarball   '8f11edf1fb8434cfbdaea3d0bcd2f69432d32b33' ]
+52 info retry fetch attempt 1 at 20:57:36
+53 info attempt registry request try #1 at 20:57:36
+54 http fetch GET https://registry.npmjs.org/react-blur/-/react-blur-0.5.1.tgz
+55 http fetch 200 https://registry.npmjs.org/react-blur/-/react-blur-0.5.1.tgz
+56 silly fetchAndShaCheck shasum 8f11edf1fb8434cfbdaea3d0bcd2f69432d32b33
+57 verbose addTmpTarball /tmp/npm-2850-97919b47/registry.npmjs.org/react-blur/-/react-blur-0.5.1.tgz not in flight; adding
+58 verbose addTmpTarball already have metadata; skipping unpack for react-blur@0.5.1
+59 verbose correctMkdir /Users/Overflow/.npm correctMkdir not in flight; initializing
+60 silly cache afterAdd react-blur@0.5.1
+61 verbose afterAdd /Users/Overflow/.npm/react-blur/0.5.1/package/package.json not in flight; writing
+62 verbose correctMkdir /Users/Overflow/.npm correctMkdir not in flight; initializing
+63 verbose afterAdd /Users/Overflow/.npm/react-blur/0.5.1/package/package.json written
+64 silly install resolved [ { name: 'react-blur',
+64 silly install resolved     version: '0.5.1',
+64 silly install resolved     description: 'React component for creating blurred backgrounds.',
+64 silly install resolved     main: 'dist/blur.js',
+64 silly install resolved     scripts:
+64 silly install resolved      { prepublish: 'mkdir -p dist && babel src/blur.jsx -u -o dist/blur.js && lessc src/blur.less dist/blur.css',
+64 silly install resolved        test: 'echo "Error: no test specified" && exit 1' },
+64 silly install resolved     keywords:
+64 silly install resolved      [ 'blur',
+64 silly install resolved        'canvas',
+64 silly install resolved        'component',
+64 silly install resolved        'react',
+64 silly install resolved        'react-component',
+64 silly install resolved        'select',
+64 silly install resolved        'text' ],
+64 silly install resolved     repository:
+64 silly install resolved      { type: 'git',
+64 silly install resolved        url: 'git+ssh://git@github.com/javierbyte/react-blur.git' },
+64 silly install resolved     author: { name: 'javierbyte' },
+64 silly install resolved     license: 'ISC',
+64 silly install resolved     dependencies:
+64 silly install resolved      { react: '^15.1.0',
+64 silly install resolved        'react-addons-pure-render-mixin': '^15.1.0',
+64 silly install resolved        'react-dom': '^15.1.0' },
+64 silly install resolved     devDependencies:
+64 silly install resolved      { 'babel-cli': '^6.9.0',
+64 silly install resolved        'babel-eslint': '^3.1.20',
+64 silly install resolved        'babel-preset-es2015': '^6.9.0',
+64 silly install resolved        'babel-preset-react': '^6.5.0',
+64 silly install resolved        'babel-preset-stage-1': '^6.5.0',
+64 silly install resolved        eslint: '^0.24.0',
+64 silly install resolved        'eslint-plugin-babel': '^1.0.0',
+64 silly install resolved        'eslint-plugin-react': '^2.6.4',
+64 silly install resolved        less: '^2.7.1' },
+64 silly install resolved     gitHead: '47289f1f33c533f2af1be2e1de9fdcaa44955ca9',
+64 silly install resolved     bugs: { url: 'https://github.com/javierbyte/react-blur/issues' },
+64 silly install resolved     homepage: 'https://github.com/javierbyte/react-blur#readme',
+64 silly install resolved     _id: 'react-blur@0.5.1',
+64 silly install resolved     _shasum: '8f11edf1fb8434cfbdaea3d0bcd2f69432d32b33',
+64 silly install resolved     _from: 'react-blur@latest',
+64 silly install resolved     _npmVersion: '2.15.8',
+64 silly install resolved     _nodeVersion: '4.4.7',
+64 silly install resolved     _npmUser: { name: 'javierbyte', email: 'hi@javierbyte.com' },
+64 silly install resolved     dist:
+64 silly install resolved      { shasum: '8f11edf1fb8434cfbdaea3d0bcd2f69432d32b33',
+64 silly install resolved        tarball: 'https://registry.npmjs.org/react-blur/-/react-blur-0.5.1.tgz' },
+64 silly install resolved     maintainers: [ [Object] ],
+64 silly install resolved     _npmOperationalInternal:
+64 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+64 silly install resolved        tmp: 'tmp/react-blur-0.5.1.tgz_1472534667336_0.8031429019756615' },
+64 silly install resolved     directories: {},
+64 silly install resolved     _resolved: 'https://registry.npmjs.org/react-blur/-/react-blur-0.5.1.tgz' } ]
+65 info install react-blur@0.5.1 into /Users/Overflow/Documents/StudyForRR
+66 info installOne react-blur@0.5.1
+67 verbose installOne of react-blur to /Users/Overflow/Documents/StudyForRR not in flight; installing
+68 verbose correctMkdir /Users/Overflow/.npm/_locks correctMkdir not in flight; initializing
+69 verbose lock using /Users/Overflow/.npm/_locks/react-blur-e5e03266361f3419.lock for /Users/Overflow/Documents/StudyForRR/node_modules/react-blur
+70 silly install write writing react-blur 0.5.1 to /Users/Overflow/Documents/StudyForRR/node_modules/react-blur
+71 verbose unbuild node_modules/react-blur
+72 silly gentlyRm /Users/Overflow/Documents/StudyForRR/node_modules/react-blur is being purged from base /Users/Overflow/Documents/StudyForRR
+73 verbose gentlyRm don't care about contents; nuking /Users/Overflow/Documents/StudyForRR/node_modules/react-blur
+74 verbose tar unpack /Users/Overflow/.npm/react-blur/0.5.1/package.tgz
+75 verbose tar unpacking to /Users/Overflow/Documents/StudyForRR/node_modules/react-blur
+76 silly gentlyRm /Users/Overflow/Documents/StudyForRR/node_modules/react-blur is being purged
+77 verbose gentlyRm don't care about contents; nuking /Users/Overflow/Documents/StudyForRR/node_modules/react-blur
+78 silly gunzTarPerm modes [ '755', '644' ]
+79 silly gunzTarPerm extractEntry package.json
+80 silly gunzTarPerm extractEntry .npmignore
+81 silly gunzTarPerm extractEntry README.md
+82 silly gunzTarPerm extractEntry dist/blur.js
+83 silly gunzTarPerm extractEntry dist/blur.css
+84 silly gunzTarPerm extractEntry CHANGELOG.md
+85 silly gunzTarPerm extractEntry .eslintrc
+86 silly gunzTarPerm extractEntry docs-assets/thumbnail.jpg
+87 silly gunzTarPerm extractEntry lib/StackBlur.js
+88 silly gunzTarPerm extractEntry screenshot.png
+89 silly gunzTarPerm extractEntry .babelrc
+90 silly gunzTarPerm extractEntry src/blur.jsx
+91 silly gunzTarPerm extractEntry src/blur.less
+92 verbose write writing to /Users/Overflow/Documents/StudyForRR/node_modules/react-blur/package.json
+93 info preinstall react-blur@0.5.1
+94 verbose readDependencies loading dependencies from /Users/Overflow/Documents/StudyForRR/node_modules/react-blur/package.json
+95 silly prepareForInstallMany adding react-addons-pure-render-mixin@^15.1.0 from react-blur dependencies
+96 verbose readDependencies loading dependencies from /Users/Overflow/Documents/StudyForRR/node_modules/react-blur/package.json
+97 silly cache add args [ 'react-addons-pure-render-mixin@^15.1.0', null ]
+98 verbose cache add spec react-addons-pure-render-mixin@^15.1.0
+99 silly cache add parsed spec Result {
+99 silly cache add   raw: 'react-addons-pure-render-mixin@^15.1.0',
+99 silly cache add   scope: null,
+99 silly cache add   name: 'react-addons-pure-render-mixin',
+99 silly cache add   rawSpec: '^15.1.0',
+99 silly cache add   spec: '>=15.1.0 <16.0.0',
+99 silly cache add   type: 'range' }
+100 silly addNamed react-addons-pure-render-mixin@>=15.1.0 <16.0.0
+101 verbose addNamed ">=15.1.0 <16.0.0" is a valid semver range for react-addons-pure-render-mixin
+102 silly addNameRange { name: 'react-addons-pure-render-mixin',
+102 silly addNameRange   range: '>=15.1.0 <16.0.0',
+102 silly addNameRange   hasData: false }
+103 silly mapToRegistry name react-addons-pure-render-mixin
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry data Result {
+106 silly mapToRegistry   raw: 'react-addons-pure-render-mixin',
+106 silly mapToRegistry   scope: null,
+106 silly mapToRegistry   name: 'react-addons-pure-render-mixin',
+106 silly mapToRegistry   rawSpec: '',
+106 silly mapToRegistry   spec: 'latest',
+106 silly mapToRegistry   type: 'tag' }
+107 silly mapToRegistry uri https://registry.npmjs.org/react-addons-pure-render-mixin
+108 verbose addNameRange registry:https://registry.npmjs.org/react-addons-pure-render-mixin not in flight; fetching
+109 verbose request uri https://registry.npmjs.org/react-addons-pure-render-mixin
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 20:57:37
+112 http request GET https://registry.npmjs.org/react-addons-pure-render-mixin
+113 http 200 https://registry.npmjs.org/react-addons-pure-render-mixin
+114 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+114 verbose headers   etag: '"80UG1PDCUF1FQN3YKVA0ID5OO"',
+114 verbose headers   'content-type': 'application/json',
+114 verbose headers   'content-encoding': 'gzip',
+114 verbose headers   'cache-control': 'max-age=300',
+114 verbose headers   'content-length': '6583',
+114 verbose headers   'accept-ranges': 'bytes',
+114 verbose headers   date: 'Wed, 26 Oct 2016 11:57:38 GMT',
+114 verbose headers   via: '1.1 varnish',
+114 verbose headers   age: '0',
+114 verbose headers   connection: 'keep-alive',
+114 verbose headers   'x-served-by': 'cache-nrt6125-NRT',
+114 verbose headers   'x-cache': 'HIT',
+114 verbose headers   'x-cache-hits': '1',
+114 verbose headers   'x-timer': 'S1477483057.486802,VS0,VE651',
+114 verbose headers   vary: 'Accept-Encoding' }
+115 silly get cb [ 200,
+115 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+115 silly get     etag: '"80UG1PDCUF1FQN3YKVA0ID5OO"',
+115 silly get     'content-type': 'application/json',
+115 silly get     'content-encoding': 'gzip',
+115 silly get     'cache-control': 'max-age=300',
+115 silly get     'content-length': '6583',
+115 silly get     'accept-ranges': 'bytes',
+115 silly get     date: 'Wed, 26 Oct 2016 11:57:38 GMT',
+115 silly get     via: '1.1 varnish',
+115 silly get     age: '0',
+115 silly get     connection: 'keep-alive',
+115 silly get     'x-served-by': 'cache-nrt6125-NRT',
+115 silly get     'x-cache': 'HIT',
+115 silly get     'x-cache-hits': '1',
+115 silly get     'x-timer': 'S1477483057.486802,VS0,VE651',
+115 silly get     vary: 'Accept-Encoding' } ]
+116 verbose get saving react-addons-pure-render-mixin to /Users/Overflow/.npm/registry.npmjs.org/react-addons-pure-render-mixin/.cache.json
+117 verbose correctMkdir /Users/Overflow/.npm correctMkdir not in flight; initializing
+118 silly addNameRange number 2 { name: 'react-addons-pure-render-mixin',
+118 silly addNameRange   range: '>=15.1.0 <16.0.0',
+118 silly addNameRange   hasData: true }
+119 silly addNameRange versions [ 'react-addons-pure-render-mixin',
+119 silly addNameRange   [ '0.14.0-beta1',
+119 silly addNameRange     '0.14.0-beta2',
+119 silly addNameRange     '0.14.0-beta3',
+119 silly addNameRange     '0.14.0-rc1',
+119 silly addNameRange     '0.14.0',
+119 silly addNameRange     '0.14.1',
+119 silly addNameRange     '0.14.2',
+119 silly addNameRange     '0.14.3',
+119 silly addNameRange     '0.14.4',
+119 silly addNameRange     '0.14.5',
+119 silly addNameRange     '0.14.6',
+119 silly addNameRange     '0.15.0-alpha.1',
+119 silly addNameRange     '0.14.7',
+119 silly addNameRange     '15.0.0-rc.1',
+119 silly addNameRange     '15.0.0-rc.2',
+119 silly addNameRange     '0.14.8',
+119 silly addNameRange     '15.0.0',
+119 silly addNameRange     '15.0.1',
+119 silly addNameRange     '15.0.2-alpha.1',
+119 silly addNameRange     '15.0.2-alpha.2',
+119 silly addNameRange     '15.0.2-alpha.3',
+119 silly addNameRange     '15.0.2-alpha.4',
+119 silly addNameRange     '15.0.2',
+119 silly addNameRange     '15.0.3-alpha.1',
+119 silly addNameRange     '15.0.3-alpha.2',
+119 silly addNameRange     '15.1.0-alpha.1',
+119 silly addNameRange     '15.1.0',
+119 silly addNameRange     '15.2.0-rc.1',
+119 silly addNameRange     '15.2.0-rc.2',
+119 silly addNameRange     '15.2.0',
+119 silly addNameRange     '15.2.1',
+119 silly addNameRange     '15.3.0-rc.1',
+119 silly addNameRange     '15.3.0-rc.2',
+119 silly addNameRange     '15.3.0-rc.3',
+119 silly addNameRange     '15.3.0',
+119 silly addNameRange     '15.3.1-rc.1',
+119 silly addNameRange     '15.3.1-rc.2',
+119 silly addNameRange     '15.3.1',
+119 silly addNameRange     '15.3.2-rc.1',
+119 silly addNameRange     '15.3.2',
+119 silly addNameRange     '15.4.0-rc.1',
+119 silly addNameRange     '15.4.0-rc.2',
+119 silly addNameRange     '15.4.0-rc.3',
+119 silly addNameRange     '15.4.0-rc.4' ] ]
+120 silly addNamed react-addons-pure-render-mixin@15.3.2
+121 verbose addNamed "15.3.2" is a plain semver version for react-addons-pure-render-mixin
+122 silly mapToRegistry name react-addons-pure-render-mixin
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry data Result {
+125 silly mapToRegistry   raw: 'react-addons-pure-render-mixin',
+125 silly mapToRegistry   scope: null,
+125 silly mapToRegistry   name: 'react-addons-pure-render-mixin',
+125 silly mapToRegistry   rawSpec: '',
+125 silly mapToRegistry   spec: 'latest',
+125 silly mapToRegistry   type: 'tag' }
+126 silly mapToRegistry uri https://registry.npmjs.org/react-addons-pure-render-mixin
+127 verbose addRemoteTarball https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.3.2.tgz not in flight; adding
+128 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.3.2.tgz',
+128 verbose addRemoteTarball   'c5f54764667ead26e6cdf7178b6c8dbbd8463ec2' ]
+129 info retry fetch attempt 1 at 20:57:38
+130 info attempt registry request try #1 at 20:57:38
+131 http fetch GET https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.3.2.tgz
+132 http fetch 200 https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.3.2.tgz
+133 silly fetchAndShaCheck shasum c5f54764667ead26e6cdf7178b6c8dbbd8463ec2
+134 verbose addTmpTarball /tmp/npm-2850-97919b47/registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.3.2.tgz not in flight; adding
+135 verbose addTmpTarball already have metadata; skipping unpack for react-addons-pure-render-mixin@15.3.2
+136 verbose correctMkdir /Users/Overflow/.npm correctMkdir not in flight; initializing
+137 silly cache afterAdd react-addons-pure-render-mixin@15.3.2
+138 verbose afterAdd /Users/Overflow/.npm/react-addons-pure-render-mixin/15.3.2/package/package.json not in flight; writing
+139 verbose correctMkdir /Users/Overflow/.npm correctMkdir not in flight; initializing
+140 verbose afterAdd /Users/Overflow/.npm/react-addons-pure-render-mixin/15.3.2/package/package.json written
+141 silly install resolved [ { name: 'react-addons-pure-render-mixin',
+141 silly install resolved     version: '15.3.2',
+141 silly install resolved     main: 'index.js',
+141 silly install resolved     repository:
+141 silly install resolved      { type: 'git',
+141 silly install resolved        url: 'git+https://github.com/facebook/react.git' },
+141 silly install resolved     keywords: [ 'react', 'react-addon' ],
+141 silly install resolved     license: 'BSD-3-Clause',
+141 silly install resolved     dependencies: {},
+141 silly install resolved     peerDependencies: { react: '^15.3.2' },
+141 silly install resolved     files: [ 'LICENSE', 'PATENTS', 'README.md', 'index.js' ],
+141 silly install resolved     description: 'This package provides the React PureRenderMixin add-on.',
+141 silly install resolved     bugs: { url: 'https://github.com/facebook/react/issues' },
+141 silly install resolved     homepage: 'https://github.com/facebook/react#readme',
+141 silly install resolved     _id: 'react-addons-pure-render-mixin@15.3.2',
+141 silly install resolved     _shasum: 'c5f54764667ead26e6cdf7178b6c8dbbd8463ec2',
+141 silly install resolved     _resolved: 'https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.3.2.tgz',
+141 silly install resolved     _from: 'react-addons-pure-render-mixin@>=15.1.0 <16.0.0',
+141 silly install resolved     scripts: {},
+141 silly install resolved     _npmVersion: '3.10.3',
+141 silly install resolved     _nodeVersion: '6.5.0',
+141 silly install resolved     _npmUser: { name: 'zpao', email: 'paul@oshannessy.com' },
+141 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+141 silly install resolved     dist:
+141 silly install resolved      { shasum: 'c5f54764667ead26e6cdf7178b6c8dbbd8463ec2',
+141 silly install resolved        tarball: 'https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.3.2.tgz' },
+141 silly install resolved     _npmOperationalInternal:
+141 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+141 silly install resolved        tmp: 'tmp/react-addons-pure-render-mixin-15.3.2.tgz_1474307202313_0.10271686711348593' },
+141 silly install resolved     directories: {} } ]
+142 info install react-addons-pure-render-mixin@15.3.2 into /Users/Overflow/Documents/StudyForRR/node_modules/react-blur
+143 info installOne react-addons-pure-render-mixin@15.3.2
+144 verbose installOne of react-addons-pure-render-mixin to /Users/Overflow/Documents/StudyForRR/node_modules/react-blur not in flight; installing
+145 verbose correctMkdir /Users/Overflow/.npm/_locks correctMkdir not in flight; initializing
+146 verbose lock using /Users/Overflow/.npm/_locks/react-addons-pure-render-f3b775a68f086a91.lock for /Users/Overflow/Documents/StudyForRR/node_modules/react-blur/node_modules/react-addons-pure-render-mixin
+147 silly install write writing react-addons-pure-render-mixin 15.3.2 to /Users/Overflow/Documents/StudyForRR/node_modules/react-blur/node_modules/react-addons-pure-render-mixin
+148 verbose unbuild node_modules/react-blur/node_modules/react-addons-pure-render-mixin
+149 silly gentlyRm /Users/Overflow/Documents/StudyForRR/node_modules/react-blur/node_modules/react-addons-pure-render-mixin is being purged from base /Users/Overflow/Documents/StudyForRR
+150 verbose gentlyRm don't care about contents; nuking /Users/Overflow/Documents/StudyForRR/node_modules/react-blur/node_modules/react-addons-pure-render-mixin
+151 verbose tar unpack /Users/Overflow/.npm/react-addons-pure-render-mixin/15.3.2/package.tgz
+152 verbose tar unpacking to /Users/Overflow/Documents/StudyForRR/node_modules/react-blur/node_modules/react-addons-pure-render-mixin
+153 silly gentlyRm /Users/Overflow/Documents/StudyForRR/node_modules/react-blur/node_modules/react-addons-pure-render-mixin is being purged
+154 verbose gentlyRm don't care about contents; nuking /Users/Overflow/Documents/StudyForRR/node_modules/react-blur/node_modules/react-addons-pure-render-mixin
+155 silly gunzTarPerm modes [ '755', '644' ]
+156 silly gunzTarPerm extractEntry package.json
+157 silly gunzTarPerm extractEntry README.md
+158 silly gunzTarPerm extractEntry LICENSE
+159 silly gunzTarPerm extractEntry index.js
+160 silly gunzTarPerm extractEntry PATENTS
+161 verbose write writing to /Users/Overflow/Documents/StudyForRR/node_modules/react-blur/node_modules/react-addons-pure-render-mixin/package.json
+162 info preinstall react-addons-pure-render-mixin@15.3.2
+163 verbose readDependencies loading dependencies from /Users/Overflow/Documents/StudyForRR/node_modules/react-blur/node_modules/react-addons-pure-render-mixin/package.json
+164 verbose readDependencies loading dependencies from /Users/Overflow/Documents/StudyForRR/node_modules/react-blur/node_modules/react-addons-pure-render-mixin/package.json
+165 silly install resolved []
+166 verbose about to build /Users/Overflow/Documents/StudyForRR/node_modules/react-blur/node_modules/react-addons-pure-render-mixin
+167 info build /Users/Overflow/Documents/StudyForRR/node_modules/react-blur/node_modules/react-addons-pure-render-mixin
+168 info linkStuff react-addons-pure-render-mixin@15.3.2
+169 silly linkStuff react-addons-pure-render-mixin@15.3.2 has /Users/Overflow/Documents/StudyForRR/node_modules/react-blur/node_modules as its parent node_modules
+170 verbose linkBins react-addons-pure-render-mixin@15.3.2
+171 verbose linkMans react-addons-pure-render-mixin@15.3.2
+172 verbose rebuildBundles react-addons-pure-render-mixin@15.3.2
+173 info install react-addons-pure-render-mixin@15.3.2
+174 info postinstall react-addons-pure-render-mixin@15.3.2
+175 verbose unlock done using /Users/Overflow/.npm/_locks/react-addons-pure-render-f3b775a68f086a91.lock for /Users/Overflow/Documents/StudyForRR/node_modules/react-blur/node_modules/react-addons-pure-render-mixin
+176 verbose about to build /Users/Overflow/Documents/StudyForRR/node_modules/react-blur
+177 info build /Users/Overflow/Documents/StudyForRR/node_modules/react-blur
+178 info linkStuff react-blur@0.5.1
+179 silly linkStuff react-blur@0.5.1 has /Users/Overflow/Documents/StudyForRR/node_modules as its parent node_modules
+180 verbose linkBins react-blur@0.5.1
+181 verbose linkMans react-blur@0.5.1
+182 verbose rebuildBundles react-blur@0.5.1
+183 verbose rebuildBundles [ 'react-addons-pure-render-mixin' ]
+184 info install react-blur@0.5.1
+185 info postinstall react-blur@0.5.1
+186 verbose unlock done using /Users/Overflow/.npm/_locks/react-blur-e5e03266361f3419.lock for /Users/Overflow/Documents/StudyForRR/node_modules/react-blur
+187 verbose validateInstall loading /Users/Overflow/Documents/StudyForRR/package.json for validation
+188 verbose stack Error: The package react@15.3.2 does not satisfy its siblings' peerDependencies requirements!
+188 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+188 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+188 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+188 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+188 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+188 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+188 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+188 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+188 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+188 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+189 verbose cwd /Users/Overflow/Documents/StudyForRR
+190 error Darwin 16.1.0
+191 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "react-blur" "--save"
+192 error node v4.6.0
+193 error npm  v2.15.9
+194 error code EPEERINVALID
+195 error peerinvalid The package react@15.3.2 does not satisfy its siblings' peerDependencies requirements!
+195 error peerinvalid Peer react-dom@15.3.2 wants react@^15.3.2
+195 error peerinvalid Peer react-image-blur@0.0.2 wants react@~0.13.3
+196 verbose exit [ 1, true ]
