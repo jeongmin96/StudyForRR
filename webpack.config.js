@@ -19,7 +19,7 @@ module.exports = {
                     loader: 'babel',
                     exclude: /node_modules/,
                     query: {
-                        cacheDirectory: true,
+                        cacheDirectory: '/tmp/',
                         presets: ['es2015', 'react']
                     }
                 },
