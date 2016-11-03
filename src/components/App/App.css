@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Koverwatch";
+    src:url("http://kr.battle.net/forums/static/fonts/koverwatch/koverwatch.ttf");
+}
+
 .background {
     position: fixed;
     background-image: url("https://blzgdapipro-a.akamaihd.net/media/wallpaper/logo-burst-standard.jpg");
@@ -18,12 +23,36 @@
     text-align:center;
     margin: auto;
     position:absolute;
-    padding-top: 18px;
+    padding-top: 10px;
     width:359px;
     height:218px;
     top:50%;
     left:50%;
     transform: translateY(-50%);
     transform: translateX(-50%);
+    color:white;
+    font-style:italic;
+    font-size:20px;
+}
 
+.button {
+    width:22%;
+    /*height:30px;*/
+    font-style:italic;
+    font-family:"Koverwatch";
+    font-size:20px;
+    background-color:#ffcc00;
+    border:none;
+    margin:auto;
+    cursor: pointer;
+    border-radius:5px;
+    padding:5px 5px;
+}
+
+.input {
+    padding: 5px 5px;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
