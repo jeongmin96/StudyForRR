@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/jeongmin96/StudyForRR#readme",
   "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
     "file-loader": "^0.9.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",

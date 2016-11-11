@@ -8,24 +8,27 @@ module.exports = {
 
     devServer: {
         inline: true,
-        port: 7777,
+        port: 4000,
         contentBase: __dirname + '/public/'
     },
 
     module: {
-            loaders: [
-                {
-                    test: /\.js$/,
-                    loader: 'babel',
-                    exclude: /node_modules/,
-                    query: {
-                        cacheDirectory: '/tmp/',
-                        presets: ['es2015', 'react']
-                    }
-                },
-                {
-                    test: /\.css$/,
-                    loader: 'style!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
+        loaders: [
+            {
+                test: /\.js$/,
+                loaders: ['babel?' + JSON.stringify({
+                    cacheDirectory: true,
+                    presets: ['es2015', 'react']
+                })],
+                exclude: /node_modules/,
+                query: {
+                    cacheDirectory: '/tmp/',
+                    presets: ['es2015', 'react']
+                }
+            },
+            {
+                test: /\.css$/,
+                loader: 'style!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
             }
         ]
     }
